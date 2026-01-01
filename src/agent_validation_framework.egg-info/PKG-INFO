@@ -1,3 +1,16 @@
+Metadata-Version: 2.4
+Name: agent-validation-framework
+Version: 0.1.0
+Summary: Runtime output validation for AI agents: schema checks, factual grounding, and domain constraints.
+Author: erron.ai
+License: MIT
+Project-URL: Homepage, https://github.com/erron-ai/agent-validation-framework
+Project-URL: Issues, https://github.com/erron-ai/agent-validation-framework/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # agent-validation-framework
 
 Runtime output validation for AI agents: schema checks, factual grounding, and domain constraints.

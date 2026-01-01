@@ -1,0 +1,2 @@
+[console_scripts]
+agent-validation-framework = agent_validation_framework.cli:main
