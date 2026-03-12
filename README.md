@@ -2,7 +2,7 @@
 
 Runtime output validation for AI agents: schema checks, factual grounding, and domain constraints.
 
-Built by **erron.ai**.
+Built by [Erron AI](https://erron.ai).
 
 ## Why this exists
 - Solve a concrete business problem with a practical, extensible baseline.
