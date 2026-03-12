@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-validation-framework"
+version = "0.1.0"
+description = "Runtime output validation for AI agents: schema checks, factual grounding, and domain constraints."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "erron.ai"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/erron-ai/agent-validation-framework"
+Issues = "https://github.com/erron-ai/agent-validation-framework/issues"
+
+[project.scripts]
+agent-validation-framework = "agent_validation_framework.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
